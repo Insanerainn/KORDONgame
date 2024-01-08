@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="KORDON" Height="720" Width="1280">
+    <Canvas Name="gameCanvas" Background="Green">
+        <!-- Black strip in the center of the canvas -->
+        <Rectangle Fill="Black" Width="10" Height="720" Canvas.Left="635" />
+    </Canvas>
+</Window>
